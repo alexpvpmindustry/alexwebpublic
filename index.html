@@ -25,6 +25,43 @@
       rel="stylesheet"
       type="text/css"
     />
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script type="text/javascript">
+      google.charts.load("current", { packages: ["corechart"] });
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["Supply", "ALX"],
+          ["Developer's Pool", 1e8],
+          ["Gamer's Pool", 1e8],
+          ["Community Pool", 1e8],
+          ["Adminstrative Funds", 1e7],
+          ["Marketing Funds", 1e8],
+          ["Contract's Pool", 1e9]
+        ]);
+
+        var options = {
+          title: "Total Supply of ALX", //is3D:true
+          pieStartAngle: 100,
+          chartArea: {
+            left: 30,
+            width: "100%",
+            height: "90%",
+            top: 30
+          }
+        };
+
+        var chart = new google.visualization.PieChart(
+          document.getElementById("piechart")
+        );
+
+        chart.draw(data, options);
+      }
+    </script>
   </head>
   <body id="page-top">
     <!-- Navigation-->
@@ -123,7 +160,7 @@
                 100% transparent ( all transaction are visible on bscscan.com)
               </li>
               <li>
-                Fully automated Smart Contract.
+                Fully Automated and Trustless Smart Contract.
               </li>
               <li>
                 Low transaction fees. ($0 fee for buying, 0.1% for selling.)
@@ -163,6 +200,7 @@
                 design options
               </li>
             </ul>
+            <div id="piechart" style="width: 100%; height: 100%;"></div>
           </div>
         </div>
       </div>
