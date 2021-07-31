@@ -22,6 +22,13 @@ Community milestones( award only applicable to addresses with > 100ALX)
 - staking pool + smart contract > 3000BNB or 1000000 USD
 (50 ALX late comer reward)
 1000ALX = 1.75USD
+- 100 addresses with > 100ALX
+(10% contract pool burn + 50ALX awarded per address) 
+- 1000 addresses with > 200ALX 
+(10% contract pool burn + 25ALX awarded per address) 
+- 5 game integrations 
+- discord Community 
 
-Smart contract exchange rate.
+Smart contract exchange rate (ExRate).
 - Fixed exchange rate of direct transactions with smart contract.
+
