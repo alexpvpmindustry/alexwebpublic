@@ -7827,6 +7827,9 @@ textarea.form-control-lg {
   .m-sm-auto {
     margin: auto !important;
   }
+  .ax-icon{
+    height: 1.8rem;
+  }
   .features-icons .features-icons-item {
     max-width: 20rem;
   }
