@@ -41,3 +41,10 @@ Development milestones
 Smart contract exchange rate (ExRate).
 - Fixed exchange rate of direct transactions with smart contract.
 
+## ways to obtain more ALX
+
+- Play games in Alex servers. (games)
+- Participate in milestone airdrops. (guide)
+- Purchase from smart contract directly. (guide) 
+- Stake ALX in pancake liquidity pools (coming soon) 
+- Referral rewards. (guide)
