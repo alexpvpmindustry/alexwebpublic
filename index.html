@@ -39,17 +39,17 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ["Supply", "ALX"],
-          ["Developer's Pool", 1e8],
-          ["Gamer's Pool", 1e8],
-          ["Community Pool", 1e8],
-          ["Adminstrative Funds", 1e7],
-          ["Marketing Funds", 1e8],
-          ["Contract's Pool", 1e9]
+          ["Supply", "DogeMulti"],
+          ["Developer's Pool", 1e10],
+          ["Gamer's Pool", 1e10],
+          ["Community Pool", 1e10],
+          ["Adminstrative Funds", 1e10],
+          ["Marketing Funds", 1e10],
+          ["Contract's Pool", 9e10]
         ]);
 
         var options = {
-          title: "Total Supply of ALX", //is3D:true
+          title: "Total Supply of DogeMulti", //is3D:true
           pieStartAngle: 100,
           chartArea: {
             left: 30,
@@ -90,7 +90,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#about">Value Proposition</a>
+              <a class="nav-link" href="#vprop">Value Proposition</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Tokenomics">Tokenomics</a>
@@ -124,8 +124,9 @@
     <header class="bg-primary bg-gradient text-white">
       <div class="container px-4 text-center">
         <h1 class="fw-bolder lh-lg">
-          <img src="assets/img/ax3.gif" class="ax-icon" /> Doge Multiverse
-          <img src="assets/img/ax3.gif" class="ax-icon" />
+          <img src="assets/img/doge_icon.PNG" class="ax-icon" /> Doge Multiverse
+
+          <img src="assets/img/doge_icon.PNG" class="ax-icon" />
         </h1>
         <p class="lead lh-1 py-1">
           Cross-Platform Decentralised Gaming Currency.
@@ -133,7 +134,9 @@
         <p class="lead lh-1 py-1 mb-5">
           A Trustless BEP-20 token for In-Game Microtransactions.
         </p>
-        <a class="btn btn-lg btn-light py-1" href="https://bscscan.com/"
+        <a
+          class="btn btn-lg btn-light py-1"
+          href="https://bscscan.com/token/0x62d5a5d40f616d6cda8ab1d1f69ecd4199d3a7e5"
           >View Smart Contract on Binance</a
         >
       </div>
@@ -145,12 +148,12 @@
           <div class="col-lg-6 h-100 text-center my-auto mb-0">
             <ul class="list-inline mb-0">
               <li class="list-inline-item me-4">
-                <a href="https://www.reddit.com/r/Dogemultiverse"
+                <a href="https://www.reddit.com/r/DogeMultiverse"
                   ><i class="bi-reddit fs-7 white"></i
                 ></a>
               </li>
               <li class="list-inline-item me-4">
-                <a href="https://twitter.com/multiverse_alex"
+                <a href="https://twitter.com/DogeMultiverse"
                   ><i class="bi-twitter fs-7 white"></i
                 ></a>
               </li>
@@ -176,8 +179,8 @@
         <div class="row gx-4 justify-content-center">
           <h2>Value Proposition</h2>
           <p class="lead">
-            ALX serves as a community based currency to facilitate the
-            transcations of In-Game skins.
+            Doge Multiverse serves as a community based currency to facilitate
+            the transcations of In-Game skins.
           </p>
         </div>
       </div>
@@ -254,7 +257,7 @@
             Contract's Pool if transaction activity is low.
           </p>
 
-          <div id="piechart" style="width: 100%; height: 100%;"></div>
+          <div id="piechart" style="width: 100%; height: 110%;"></div>
         </div>
       </div>
       <div class="container px-4">
@@ -262,22 +265,24 @@
           <div class="col-lg-8">
             <p class="lead"><strong>Total tokens burnt</strong>:</p>
             <p class="text-center">
-              0 <strong>ALX</strong> (<strong>0%</strong> of total supply)
+              0 <strong>DogeMulti</strong> (<strong>0%</strong> of total supply)
             </p>
             <p class="lead"><strong>Current Total Supply</strong>:</p>
-            <p class="text-center">1e9 <strong>ALX</strong></p>
+            <p class="text-center">1e12 <strong>DogeMulti</strong></p>
             <p class="lead"><strong>Last Burnt Date</strong>:</p>
-            <p class="text-center">some date <strong>ALX</strong></p>
+            <p class="text-center">N/A</p>
             <p class="lead"><strong>Next Burn Date</strong>:</p>
-            <p class="text-center">some date <strong>ALX</strong></p>
+            <p class="text-center">
+              (Vote in Discord) <strong>DogeMulti</strong>
+            </p>
             <p class="lead"><strong>Allocation of tokens </strong>:</p>
             <ul>
               <li>
                 Developer's Pool: Token incentives for developers to integrate
-                ALX API.
+                DogeMulti API.
               </li>
               <li>
-                Gamer's Pool: Token incentives for gamers to earn ALX via
+                Gamer's Pool: Token incentives for gamers to earn DogeMulti via
                 playing games.
               </li>
               <li>
@@ -297,7 +302,11 @@
               </li>
             </ul>
             <p class="text-sm-end">
-              Verifiable Data on <a href="bscscan.com">Binance Smart Chain</a>
+              Verifiable Data on
+              <a
+                href="https://bscscan.com/token/0x62d5a5d40f616d6cda8ab1d1f69ecd4199d3a7e5"
+                >Binance Smart Chain</a
+              >
             </p>
           </div>
         </div>
@@ -314,13 +323,13 @@
               <div class="features-icons-icon d-flex">
                 <i class="bi-window m-auto text-primary"></i>
               </div>
-              <h3>Fully Responsive1</h3>
+              <h3>Coming Soon</h3>
               <p class="lead mb-0">
-                This theme will look great on any device, no matter the size!
+                much empty.
               </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <!-- <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
                 <i class="bi-window m-auto text-primary"></i>
@@ -364,7 +373,7 @@
                 files!
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
