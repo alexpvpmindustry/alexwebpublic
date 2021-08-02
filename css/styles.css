@@ -7830,6 +7830,9 @@ textarea.form-control-lg {
   .ax-icon{
     height: 1.8rem;
   }
+  .pfp-icon{
+    height: 12rem;
+  }
   .features-icons .features-icons-item {
     max-width: 20rem;
   }
