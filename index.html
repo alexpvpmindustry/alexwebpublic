@@ -143,14 +143,14 @@
             <p class="title">Total tokens burnt</p>
             <p class="text">${numCommas(
               pIDr(bhist.Total_Burnt)
-            )} <strong>DogeMulti</strong> (<strong>${
+            )} <strong>DogeMulti</strong><br> (<strong>${
           Math.round(
             ((pIDr(bhist.Total_Burnt) + pIDr(bhist.Total_Supply_Left)) /
               pIDr(bhist.Total_Supply_Left)) *
               100
           ) / 100
-        }%</strong> of total
-                supply)</p>
+        }%</strong> of Max
+                Supply)</p>
           </div>
           <!-- card -->
           <div class="card2info col-lg-2 mx-auto mb-0 mb-lg-3">

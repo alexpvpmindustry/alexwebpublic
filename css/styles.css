@@ -10968,6 +10968,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
   transition: all 0.3s ease;
 }
 
@@ -11014,30 +11015,44 @@ section {
   max-height:0;
   transition: all 0.3s ease;
 }
-
+.card2info .title {
+  width: 80%; 
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  opacity: 1;  
+}
 .card2info .text {
   width: 80%;
   margin: 0 auto;
   font-size: 16px;
   text-align: center;
   margin-top: 0px;
-  font-weight: 200;
+  font-weight: 500;
   letter-spacing: 2px;
   opacity: 1; 
   transition: all 0.3s ease;
 }
 
-.card2info .title {
-  width: 80%; 
-  font-size: 15px;
-  text-align: center;
-  margin-top: 0px;
-  font-weight: 600;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  opacity: 1;  
+.card2info:hover .title{ 
+  font-size: 16px;
+  font-weight: 900px;
+  transition: all 0.3s ease;
 }
-
+.card2info:hover .text{
+  background-position: 20px;
+  font-size: 16px;
+  font-weight: 550px;
+  transition: all 0.3s ease;
+}
+.card2info:hover {
+  min-height: 200px;
+  background-position: -20px;
+  transition: all 0.3s ease;
+}
 .card2:hover {
   height: 270px;
 }
@@ -11051,6 +11066,7 @@ section {
   opacity: 1;
   max-height:40px;
 }
+
 
 .card2:hover .icon {
   background-position: -120px;
