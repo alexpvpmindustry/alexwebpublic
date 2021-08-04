@@ -81,7 +81,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(0.775rem + 3.5vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -7830,6 +7830,11 @@ textarea.form-control-lg {
   .ax-icon{
     height: 1.8rem;
   }
+  @media only screen and (max-width: 321px) {
+    #hide-when-mobile {
+        display: none;
+    }
+}
   .pfp-icon{
     height: 12rem;
   }
