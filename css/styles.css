@@ -7830,6 +7830,9 @@ textarea.form-control-lg {
   .ax-icon{
     height: 1.8rem;
   }
+   .metamask-icon{
+    height: 1.1rem;
+  }
   @media only screen and (max-width: 321px) {
     #hide-when-mobile {
         display: none;
