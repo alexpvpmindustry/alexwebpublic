@@ -2363,6 +2363,13 @@ textarea.form-control-lg {
      -moz-appearance: none;
           appearance: none;
 }
+::selection {
+  background: #140d80; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #140d80; /* Gecko Browsers */
+}
+
 @media (prefers-reduced-motion: reduce) {
   .form-select {
     transition: none;
