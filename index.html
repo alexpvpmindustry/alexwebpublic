@@ -89,7 +89,7 @@
           .then((dictt) => {
             const contractbnb = pIDr15(dictt.contract_weii);
             const currentMilestone = pIDr15(dictt.current_milestone);
-            console.log(contractbnb);
+            //console.log(contractbnb);
             var r = document.querySelector(":root");
             r.style.setProperty(
               "--contractprog",
@@ -276,7 +276,7 @@
     </nav>
     <!-- Header-->
     <header class="bg-primary bg-gradient text-white">
-      <div class="container px-4 text-center">
+      <div class="container px-4 text-center py-3">
         <h1 class="fw-bolder lh-lg">
           <img src="assets/img/doge_icon_32x32small.jpg" class="ax-icon" /> Doge
           Multiverse
@@ -296,7 +296,7 @@
         >
       </div>
       <div class="container py-3">
-        <p class="lh-1 h3 mb-0 text-center">20,000+ <em>Unique Players</em></p>
+        <p class="lh-1 h5 mb-0 text-center">20,000+ <em>Unique Players</em></p>
       </div>
       <div class="container py-3">
         <p class="lh-1 h5 mb-0 text-center" id="stakedms">
@@ -515,7 +515,7 @@
           <p class="lead"><strong>Allocation of tokens </strong>:</p>
         </div>
         <div>
-          <ul class="ex2">
+          <ul class="card2infoallocation">
             <li>
               Developer's Pool: Token incentives for developers to integrate
               DogeMulti API.
