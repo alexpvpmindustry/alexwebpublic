@@ -570,8 +570,8 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  max-width: 30%;
+  max-height: 30%;
 }
 
 .img-thumbnail {
@@ -7864,7 +7864,8 @@ ul.ex2 {
     }
 }
   .pfp-icon{
-    height: 12rem;
+    max-height: 200px;
+    max-width: 5rem;
   }
   .features-icons .features-icons-item {
     max-width: 20rem;
