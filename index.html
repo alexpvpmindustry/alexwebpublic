@@ -93,9 +93,11 @@
             var r = document.querySelector(":root");
             r.style.setProperty(
               "--contractprog",
-              (Math.max(Math.min((contractbnb / currentMilestone) * 100), 5),
+              (Math.min(
+                Math.max(
+                  ((contractbnb / currentMilestone) * 100), 5),
               100).toString() + "%"
-            );
+            ));
             const pbt = document.getElementById("stakedms");
             pbt.innerHTML =
               contractbnb.toString() +
@@ -575,7 +577,7 @@
         </div>
         <div class="container pt-0 align-content-center">
           <div class="row pt-0 align-content-center">
-            <div class="card2infolpmilestones col-lg-6">
+            <div class="card2infolpmilestones col-lg-6 text-decoration-line-through ">
               0.1 BNB >> +1% Exchange Rate
             </div>
             <div class="card2infolpmilestones col-lg-6">
