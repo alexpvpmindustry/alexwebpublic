@@ -1,7 +1,26 @@
-# alexweb public
+# Doge Multiverse white paper 
 
-Roadmap
-Development milestones
+## introduction 
+
+## market opportunity
+ 
+## business opportunity
+
+## value proposition 
+
+## traction 
+
+## accessibility to $DogeMulti
+
+- Play games in Alex servers. (games)
+- Participate in milestone airdrops. (guide)
+- Purchase from smart contract directly. (guide) 
+- Stake  $DogeMulti in pancake liquidity pools (coming soon) 
+- Referral rewards. (guide)
+
+## Roadmap
+
+### Development milestones
 - initial contract deployment. 
 - pancake swap liquidity pool and staking with bnb pair
 - Off chain transactions with discord verification
@@ -9,7 +28,7 @@ Development milestones
 - smart contract ExRate pegging to fiat. 
 - listing onto exchanges
 
-## Community milestones( award only applicable to addresses with > 10 000 $DogeMulti) 
+### Community milestones( award only applicable to addresses with > 10 000 $DogeMulti) 
 
 - staking pool + smart contract > 3BNB or 1000   USD
 (1000 $DogeMulti founders reward, unlocks exchange mechanism) 
@@ -30,7 +49,7 @@ Development milestones
 - 5 game integrations 
 - discord Community 
 
-## Roadmap
+## exchange rate milestones 
 
 - 1e9 tokens =100*1e3usd = 300bnb, 1e9 tokens =1*1e3usd = 3bnb
 - 1e6 tokens =100usd     = 0.3bnb, 1e6 =1usd=0.003bnb
@@ -41,10 +60,4 @@ Development milestones
 Smart contract exchange rate (ExRate).
 - Fixed exchange rate of direct transactions with smart contract.
 
-## ways to obtain more  $DogeMulti
 
-- Play games in Alex servers. (games)
-- Participate in milestone airdrops. (guide)
-- Purchase from smart contract directly. (guide) 
-- Stake  $DogeMulti in pancake liquidity pools (coming soon) 
-- Referral rewards. (guide)
