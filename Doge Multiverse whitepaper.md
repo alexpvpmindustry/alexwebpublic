@@ -1,4 +1,4 @@
-# Doge Multiverse white paper 
+# Doge Multiverse whitepaper 
 
 ## introduction 
 
