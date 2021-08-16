@@ -1,8 +1,9 @@
 # 💎 Doge Multiverse, Universal In-Game Microtransactions 💎
 
 ## 🔥🔥 INTEGRATED GAME TOKENS, MORE REWARDS 🔥🔥
+
 - 🔥 20,000++ ORGANIC PLAYERS, ZERO Marketing Spent 🔥
-- 🟢 NO PRESALE 🟢 NO ICO 
+- 🟢 NO PRESALE 🟢 NO ICO
 - 🟢 95% MAX SUPPLY FOR CIRCULATION
 
 ## 🚀 Why is Doge Multiverse worth your time? 🚀
