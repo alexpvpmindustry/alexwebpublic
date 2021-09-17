@@ -1,6 +1,6 @@
 # Doge Multiverse whitepaper 
 
-## introduction 
+## Introduction 
 
 Video games used to operate like big-budget films. The games underwent years of development with rigorous testing and debugging before the final product was released. Then the industry was revolutionized by the concept of online connectivity. Additions such as downloadable content (DLC) proved to be instrumental in getting gamers to pay for products after the game had already been released. DLC is part of gaming's secondary market and a precursor to what gamers know now as microtransactions.
 
@@ -9,7 +9,7 @@ Video games used to operate like big-budget films. The games underwent years of 
 A microtransaction is a business model where users can purchase virtual items for small amounts of money. Microtransactions often appear in free-to-play games, meaning there is no cost to download the game, just a cost to buy the online virtual products.
 The video game industry is in a perpetual state of change, and microtransactions have had the most significant impact. Game developers have learned to take advantage of this new revenue source. It is estimated that only 5 to 20% of game communities take part in microtransactions, and the amounts they spend vary. However, this is still a significant amount, as the revenue generated is enormous for free-to-play games. Executives at these companies aim to monetize the player base that is not partaking in the microtransaction community for driving further growth.
 
-### Companies that leveraged on microtransactions. 
+### Companies that leveraged on Microtransactions. 
 
 The video game industry reached a record of $36 billion in revenue for 2017, according to data from the Entertainment Software Association (ESA) and the NPD Group.
 
